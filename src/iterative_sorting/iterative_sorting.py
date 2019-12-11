@@ -1,5 +1,5 @@
 # TO-DO: Complete the selection_sort() function below 
-#testing_sorting_list = [78, 1, 3, 0, 75, 86, 106, 78, 48, 7, 10, 97, 24]
+testing_sorting_list = [78, 1, 3, 0, 75, 86, 106, 78, 48, 7, 10, 97, 24]
 def selection_sort( arr ):
     # loop through n-1 elements
     for i in range(0, len(arr) - 1):
@@ -14,7 +14,7 @@ def selection_sort( arr ):
     
     return arr          
 
-print(selection_sort(sorting_list)) 
+print(selection_sort(testing_sorting_list)) 
 #[0, 1, 3, 7, 10, 24, 48, 75, 78, 78, 86, 97, 106]
 ###tested in intelliJ WORKS
 
@@ -27,7 +27,7 @@ def bubble_sort( arr ):
                 arr[x], arr[x + 1] = arr[x + 1], arr[x]
     return arr
 
-print(bubble_sort(sorting_list))    
+print(bubble_sort(testing_sorting_list))    
 #[0, 1, 3, 7, 10, 24, 48, 75, 78, 78, 86, 97, 106]
 ###tested in intelliJ WORKS
 
